@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+}
+
 body {
 	font-family: "Manrope", sans-serif;
 	font-size: 1em;
@@ -33,6 +37,7 @@ li {
 header,
 footer {
 	background-color: white;
+	padding: 20px 50px;
 }
 
 .cta {
@@ -44,6 +49,15 @@ footer {
 .content {
 	border-right: 1px solid #8e86b5;
 	border-bottom: 1px solid #8e86b5;
+	padding: 50px;
+}
+
+.content h2 {
+	margin-top: 30px;
+}
+
+.content ul {
+	margin-top: 30px;
 }
 
 a:hover {
@@ -57,4 +71,13 @@ a:hover {
 
 .icon-link:hover {
 	opacity: 0.5;
+}
+
+section {
+	padding: 80px;
+}
+
+.a-propos-main {
+	width: 50%;
+	margin: auto;
 }
